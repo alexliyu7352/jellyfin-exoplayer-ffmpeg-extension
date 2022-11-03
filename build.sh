@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ensure NDK is available
+## Ensure NDK is available
 export ANDROID_NDK_PATH=$ANDROID_HOME/ndk/21.4.7075529
 
 [[ -z "$ANDROID_NDK_PATH" ]] && echo "No NDK found, quitting…" && exit 1
